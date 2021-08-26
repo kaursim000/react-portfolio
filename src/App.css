@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+:root{
+  --primary-white: #fff;
+  --primary-dark: rgba(255,255,255)
+}
+
+body {
+  font-family: "Roboto Condensed";
+}
+/*NAVBAR*/
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+nav ul li{
+  text-transform: uppercase;
+  
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left: 00.75rem;
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+  margin-right: auto;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  color: var(--primary-white) !important;
+  text-transform: uppercase;
+}
